@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no part">
+    <link rel="stylesheet" href="human.css">
+    <title>Tic Tac Toe - Two Players</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <h1>TIC - TAC - TOE<br>(1v1)</h1>
+    <p id="message"></p>
+    <div class="tic-tac-toe">
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+    
+  
+    <script src="human.js"></script>
+    <div class="buttons">
+        <button onclick="resetBoard()">Reset</button>
+        <button id="back" onclick="back()">Home</button>
+    </div>
+    <footer>
+        Created by Karthikeyan
+    </footer>
+    
+</body>
+</html>
